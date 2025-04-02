@@ -21,7 +21,7 @@ img
 p {
     padding: 0;
 }
-Main {
+main {
     max-width: 840px;
 }
  aside {
@@ -46,3 +46,14 @@ color: darkblue;
 border-top: 1px solid #000;
      
  }  
+ cite {
+
+     margin: auto;
+     border: 1px solid darkblue;
+     padding: 2px;
+     color: darkblue;
+     text-align: right;
+     display: block;
+     font-size: 10px;
+     font-style: italic;
+ }

@@ -1,0 +1,88 @@
+:root {
+    --primary-color: #003049;
+    --secondary-color: #669bbc;
+    --accent1-color: #d62828;
+    --accent2-color: #33e7ff;
+    --main-link-visited-color: #white;
+    --main-link-visited-hover-color: #900c3f;
+    --header-font: 'Times New Roman', Times, serif;
+    --body-font: 'Roboto', Arial, sans-serif;
+}
+header, main,  footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.callout {
+    width: max-content;
+    margin: 10px;
+    border: 1px;
+    padding: 2px;
+    background-color: darkblue;
+    font: white;
+
+}
+.hero {
+    position: relative;
+    color: white;
+    padding: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin-top: 10px;
+}
+.hero article {
+    position: absolute;
+    color: white;
+    text-align: center;
+    bottom: 20px;
+    left: 20px;
+    background-color: #003049;
+    opacity: 0.8;
+
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero article img {
+    width: 100px;
+    float: right;
+    margin: 10px;
+    border: #900c3f 2px solid;  
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.logo { 
+    width: 100px;
+    margin: 10px;
+}
+h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 1.5rem;
+    text-shadow: 3px 3px 5px #777;
+    font-family: 'Times New Roman', Times, serif;
+                        
+}
+.socialinks {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.socialinks a {
+    margin: 10px;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
